@@ -1,0 +1,139 @@
+body{
+    background-color: white;
+}
+h1{
+    color:whitesmoke;
+    margin: 5px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    background-color:green;
+    height: 70px;
+    width: 100%;
+}
+img{
+    border-radius: 7px;
+    border-color: brown;
+    border-style: groove;
+    position: relative;
+}
+#div1{
+    margin: 10px;
+    padding: 20px;
+}
+#table1{
+    padding:20px;
+    border-spacing: 30px;
+}
+.plants1{
+    transition: transform.2s;
+}
+.plants1:hover{
+    transform:scale(1.2);
+}
+marquee{
+    color:brown;
+    font-style: italic;
+    font-size: large;
+}
+#div2{
+    height: 100px;
+    width: 100%;
+    background-color: yellow;
+    color:green;
+    animation-name: anim1;
+    animation-duration: 30s;
+    font-style: italic;
+    font-size: large;
+    border-radius: 5px;
+}
+@keyframes anim1{
+    0%   {background-color: lightskyblue;}
+    25%  {background-color: pink;}
+    50%  {background-color: aliceblue;}
+    100% {background-color: goldenrod;}
+}
+#button1{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: groove;
+    font-size: larger;
+    font-style: italic;
+}
+.buttons{
+    text-decoration: none;
+    color:brown;
+}
+footer{
+    margin-bottom: 20px;
+    background-color: green;
+    width:100%;
+    height:50px;
+    position: relative;
+    bottom:0px;
+}
+h3{
+    color:white;
+    font-size:large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu{
+    text-decoration: none;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu:hover{
+    color:yellow;
+}
+#menu{
+    float:right;
+}
+#aboutus{
+    color:brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+#img1,#img3{
+    float: left;
+}
+#img2{
+    float:right;
+}
+#items1{
+    font-size: large;
+    color: brown;
+    font-style: italic;
+    font-size: larger;
+}
+#items2{
+    font-size: large;
+    color: brown;
+    font-style: italic;
+    font-size: larger;
+}
+#items3{
+    font-size: large;
+    color: brown;
+    font-style: italic;
+    font-size: larger;
+}
+h2{
+    color: red;
+}
+.form1{
+    border-radius: 10px;
+    border-style: double;
+    border-color: green;
+    background-color: white;
+    margin:30px;
+    padding: 20px;
+    color:brown;
+    font-size: large;
+    font-style: italic;
+
+}
+.contactimg:hover{
+    filter:grayscale(100%);
+}
